@@ -33,8 +33,3 @@ class Queue{
         return temp.value;
     }
 }
-
-var q = new Queue();
-q.enqueue(1);
-q.enqueue(2);
-q.enqueue(3);
