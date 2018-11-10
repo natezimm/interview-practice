@@ -13,7 +13,7 @@ class HashTable {
         }
         return total;
     }
-    seet(key,value){
+    set(key,value){
         let index = this._hash(key);
         if(!this.keyMap[index]){
             this.keyMap[index] = [];
