@@ -127,11 +127,3 @@ class SinglyLinkedList{
         console.log(arr);
     }
 }
-
-
-var list = new SinglyLinkedList();
-list.push(1);
-list.push(3);
-list.push(5);
-list.push(7);
-list.push(9);
