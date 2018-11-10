@@ -67,10 +67,3 @@ class PriorityQueue {
         }
     }
 }
-
-let ER = new PriorityQueue();
-ER.enqueue("common cold", 5);
-ER.enqueue("gunshot wound", 1);
-ER.enqueue("flu", 2);
-ER.enqueue("abdominal pain", 4);
-ER.enqueue("chest pain", 2);
